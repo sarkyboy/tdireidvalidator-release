@@ -24,36 +24,6 @@ TDI ReID Validator 是一个基于 React 和 Vite 构建的单页应用程序，
 - **国际化**：i18next
 - **其他库**：UUID 生成
 
-## 安装与运行
-
-### 开发环境
-
-1. 克隆仓库
-2. 安装依赖：
-   ```bash
-   npm install
-   ```
-3. 启动开发服务器：
-   ```bash
-   npm run dev
-   ```
-
-### 构建生产版本
-
-```bash
- npm run build
-```
-
-构建后的文件将位于 `dist` 目录中，可以部署到任何静态文件服务器。
-
-### 部署
-
-项目包含一个自动部署脚本 `deploy-static.sh`，可以将构建后的应用部署到指定的 GitHub 仓库：
-
-```bash
-npm run deploy-static
-```
-
 ## 使用方法
 
 1. 打开应用后，点击"选择文件夹"按钮或拖放文件夹到指定区域
